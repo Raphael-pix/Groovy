@@ -1,8 +1,8 @@
-export const URL = "https://spotify23.p.rapidapi.com"
-export const DEPRECIATED_API_KEY_3 ="7f9254305bmsh4caf730384d07f5p1d0df5jsncb87eaf4f2f6"
-export const API_KEY = "d8e77abb4dmsha4e5f3ab69e9a0ep166b1djsn6ae846fafdbc"
-export const DEPRECIATED_API_KEY_1= '26dfee1055msh42e32d854c5bfcdp10afe4jsn53929a03fa09'
-export const API_HOST = 'spotify23.p.rapidapi.com'
+export const URL = import.meta.env.VITE_API_URL
+export const DEPRECIATED_API_KEY_3 =import.meta.env.VITE_API_KEY_3
+export const API_KEY = import.meta.env.VITE_API_KEY
+export const DEPRECIATED_API_KEY_1= import.meta.env.VITE_API_KEY_2
+export const API_HOST = import.meta.env.VITE_API_HOST
 
 
 export const options = {

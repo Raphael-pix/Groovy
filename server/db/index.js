@@ -1,8 +1,9 @@
 const mongoose = require('mongoose')
+require('dotenv').config();
 
 mongoose.set("strictQuery",false)
 
 mongoose
-.connect("mongodb://127.0.0.1:27017/groovy")
+.connect(process.env.Mongoose_URL)
 .then(()=>console.log('db connected successfully'))
 .catch((err)=>console.log(err.message))
