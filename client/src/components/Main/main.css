@@ -1,0 +1,7 @@
+.main-container{
+    margin-left:180px;
+    min-height:100vh;
+}
+.main-container-visible{
+    margin-bottom: 65px;
+}

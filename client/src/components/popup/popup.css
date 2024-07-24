@@ -1,0 +1,12 @@
+.popup-container{
+    width: fit-content;
+    padding: 10px 14px;
+    background-color: white;
+    color: #111;
+    display: flex;
+    gap: 14px;
+    font-size: .9rem;
+    position: absolute;
+    left: 50%; top: -20px;
+    border-radius: 10px;
+}

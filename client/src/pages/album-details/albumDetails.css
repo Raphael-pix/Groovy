@@ -1,0 +1,123 @@
+.container{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.album-details-container{
+    border-radius: inherit;
+    min-height: 100vh;
+    color: white;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.hero-section{
+    border-radius: inherit;
+    top: 0;left: 0;right: 0;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    background-color: var(--background-color);
+}
+.album-cover-image{
+    width: 220px; height: 220px;
+    border-radius:10px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+.album-details{
+    text-align: left;
+}
+.album-details-name{
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+.album-details-artists{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 6px 0;
+}
+.album-details-release-date{
+    font-size: 16px;
+    margin: 2px 0;
+}
+.tracks-in-albums{
+    padding: 20px 25px;
+    background-image: linear-gradient(
+    180deg,
+    var(--background-color, 0.6),
+    var(--background-color),
+    #111
+);
+position: relative;
+z-index: 2;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+.play-btn-details-container{
+    width: 42px;height: 42px;
+    border-radius: 50%;
+    background-color:#4174ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.track-list{
+    list-style-type: none;
+}
+.track-duration,.no-of-plays,.track-name{
+    flex: 1;
+    color: #cdcdcd;
+    margin:0 20px;
+    display: flex;
+}
+
+.track-item,.track-header{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding:12px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.track-item:hover{
+    background-color: #8080806d;
+    color: white;
+}
+.track-header{
+    border-bottom: 1px solid #cdcdcd;
+    padding: 8px 0;
+}
+.track-number{
+    margin-left: 12px;
+    margin-right:22px;
+    color:#cdcdcd;
+    align-self: center;
+}
+.track-name{
+    font-weight: 600;
+    font-size:18px;
+    color: white;
+}
+.track-duration,.no-of-plays{
+    justify-content: end;
+}
+.fade-bottom{
+    height: 1.8rem;width: 100%;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        var(--background-color, 0.6),
+        var(--background-color)
+    );
+    position: absolute;
+    bottom: -20px;left: 0;
+    color: rgb(88, 88, 88);
+}

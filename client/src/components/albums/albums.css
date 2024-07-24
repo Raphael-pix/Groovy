@@ -1,0 +1,49 @@
+.container{
+    padding: 0 10px;
+    color:white;
+    position: relative;
+}
+.title{
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.AnT-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.AnT-container::-webkit-scrollbar{
+    display: none;
+}
+.album-container{
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.album-image-container{
+    border-radius: 10px;
+    width: 150px;
+}
+.album-image-container img{
+    object-fit: cover;
+    width: 100%;height: 100%;
+    border-radius: inherit;
+}
+.album-name{
+    font-size: 16px;
+}
+.artist{
+    font-size: 11px;
+    font-weight: 500;
+}
+.release-date{
+    font-size: 10px;
+    margin: 2px 0;
+}

@@ -1,0 +1,60 @@
+.container{
+    padding: 0 10px;
+    color:white;
+    position: relative;
+}
+.title{
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.track-main-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.track-main-container::-webkit-scrollbar{
+    display: none;
+}
+.track-container{
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer;
+}
+.track-image-container{
+    border-radius: 10px;
+    width: 150px;
+    position: relative;
+}
+.track-image-container img{
+    object-fit: cover;
+    width: 100%;height: 100%;
+    border-radius: inherit;
+}
+.play-pause-btn-container{
+    position: absolute;
+    bottom: 2%;right:0%;
+    margin: 5px;
+    width: 34px;height: 34px;
+    border-radius: 50%;
+    background-color:#7695ea;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.track-container:hover .play-pause-btn-container {
+    display: flex;
+  }
+.track-container .track-name{
+    font-size: 16px;
+    margin: 3px 0;
+}
+.artist{
+    font-size: 11px;
+    font-weight: 500;
+}

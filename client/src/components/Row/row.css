@@ -1,0 +1,39 @@
+.row-container{
+    padding: 30px 10px;
+    color:white;
+    position: relative;
+}
+.row-title{
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.artist-row-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.artist-row-container::-webkit-scrollbar{
+    display: none;
+}
+.artist-container{
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+.artist-image{
+    object-fit: contain;
+    height: 80px;width:80px;
+    border-radius: 50%;
+    margin: 4px auto;
+}
+.artist-name{
+    font-size: 13px;
+}
+.artist-followers{
+    font-size: 8px;
+}

@@ -1,0 +1,113 @@
+.navbar-container{
+    position: relative;
+    top: 0;right: 0;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;  
+    padding: 20px 30px;
+    padding-top: 24px;
+    background-color: transparent;
+    z-index: 1000;
+}
+.navbar-options{
+    display: flex;
+    gap:18px;
+}
+
+.navbar-options p{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navbar-options p.active{
+    color: purple;
+}
+.searchbar{
+    border: 1px solid #dcdcdc;
+    padding: 6px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    color: white;
+}
+.searchbar-container{
+    position: relative;
+}
+.search-input{
+    margin-left: 6px;
+    border: 0;outline: 0;
+    padding: 3px;
+    background-color: transparent;
+    color: white;
+}
+.results-list{
+    max-height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.results-list::-webkit-scrollbar{
+    display: none;
+}
+.search-result-item{
+    display: flex;
+    align-items: center;
+    padding: 8px 4px;
+    cursor: pointer;
+}
+.search-results{
+    position: absolute;
+    left: 0;right: 0;
+}
+.search-value-profile{
+    width: 40px;height: 40px;
+    border-radius:6px;
+    margin-right: 10px;
+}
+.search-value-name{
+    color: white;
+    font-size: 16px;
+}
+.personal{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap:4px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #80808035;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.profile-container img{
+    border-radius: 4px;
+    width: 25px;height: 25px;
+    margin-right: 8px;
+}
+.signup-btn{
+    padding: 5px 14px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(75, 75, 75);
+    outline: 0;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.signup-btn:hover{
+    background-color: #e8e8e8;
+    color: #111;
+}
